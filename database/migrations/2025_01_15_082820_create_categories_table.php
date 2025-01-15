@@ -17,6 +17,7 @@ return new class extends Migration
             $table->boolean('is_expanse');
             $table->string('image');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 
